@@ -38,6 +38,13 @@ header .container .center-menu a {
     color: #222222;
     text-decoration: none;
     margin: 0 1rem;
+    background-color: #ff5a5f;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1rem;
+    
 }
 
 header .container center-menu a:hover  {
@@ -67,7 +74,18 @@ header nav .img a:hover{
     color: #ff385c;
     text-decoration: none;
 }
-
+header nav .btn{
+    background-color: #ff5a5f;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+header nav .btn:hover{
+    background-color: #e14b4a;
+}
 
 .hero {
     background-color:#f7f7f7;
@@ -90,8 +108,8 @@ header nav .img a:hover{
     font-size: 2.5rem;
     margin-bottom: 1rem;
     
-    padding: 10px;
-    border-radius: 50px ;
+    padding: 8px;
+    border-radius: 40px ;
     border-color: #922d3f;
     background-color: #ff5a5f;
     
@@ -104,6 +122,8 @@ header nav .img a:hover{
     border: none;
     border-radius: 8px;
 }
+
+
 .slider{
     background-color:white;
     color: #f7f7f7;

@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="footer.css">
+    <script src="js/slider.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/footer.css">
      <link rel="shortcut icon" href="assest/images/airbnb-logo.png" type="image/x-icon">
     <title>Airbnb</title>
 </head>
@@ -20,44 +22,56 @@
             <nav>
                 <a href="#">Airbnb Your Home</a>
                 <a href="#"><img src="assest/images/world.png" alt="ico"></i></a>
-                <a class="img" href="#"><img src="assest/images/icons8-menu-16.png" alt=""><img src="assest/images/icons8-register-16.png" alt=""> </a>
+                <button class="btn"><img src="assest/images/icons8-menu-16.png" alt=""><img src="assest/images/icons8-register-16.png" alt=""></button>
             </nav>
         </div>
     </header>
     <main>
         <section class="hero">
             <div class="hero-content">
-                <input type="text" placeholder="Where">|
+                <input type="text" placeholder="Where">
              
-                <input type="text" placeholder="Check in ">|
+                <input type="text" placeholder="Check in ">
               
-                <input type="text" placeholder="Check out">|
+                <input type="text" placeholder="Check out">
                 
                 <input type="text" placeholder="Check out">
-                <img src="assest/images/icons8-search-32.png" alt="Search">
+
+                <input class="search" type="text" placeholder="Search">
+
+                <img class="img" src="assest/images/icons8-search-32.png" alt="Search" >
+                
             </div>
         </section>
 
         <section class="slider">
+            <button class="prev">Prev</button>
             <div class="slider-content">
-               <img src="assest/icons/image07.png" alt="">
-               <img src="assest/icons/image08.jpg" alt="">
-               <img src="assest/icons/image10.jpg" alt="">
-               <img src="assest/icons/image11.jpg" alt="">
-               <img src="assest/icons/image12.jpg" alt="">
-               <img src="assest/icons/image13.jpg" alt="">
-               <img src="assest/icons/image14.jpg" alt="">
-               <img src="assest/icons/image15.jpg" alt="">
-               <img src="assest/icons/image16.jpg" alt="">
-               <img src="assest/icons/image17.jpg" alt="">
-               <img src="assest/icons/image18.jpg" alt="">
-               <img src="assest/icons/image19.jpg" alt="">
-               <img src="assest/icons/image20.jpg" alt="">
-               <a class="prev" onclick="plusSlides(-1)">❮</a>
-<a class="next" onclick="plusSlides(1)">❯</a>
-                
+                <img src="assest/icons/image07.png" alt="">
+                <img src="assest/icons/image08.jpg" alt="">
+                <img src="assest/icons/image10.jpg" alt="">
+                <img src="assest/icons/image11.jpg" alt="">
+                <img src="assest/icons/image12.jpg" alt="">
+                <img src="assest/icons/image13.jpg" alt="">
+                <img src="assest/icons/image14.jpg" alt="">
+                <img src="assest/icons/image15.jpg" alt="">
+                <img src="assest/icons/image16.jpg" alt="">
+                <img src="assest/icons/image17.jpg" alt="">
+                <img src="assest/icons/image18.jpg" alt="">
+                <img src="assest/icons/image19.jpg" alt="">
+                <img src="assest/icons/image21.jpg" alt="">
+                <img src="assest/icons/image22.jpg" alt="">
+                <img src="assest/icons/image23.jpg" alt="">
+                <img src="assest/icons/image24.jpg" alt="">
+                <img src="assest/icons/image25.jpg" alt="">
+                <img src="assest/icons/image26.jpg" alt="">
+                <img src="assest/icons/image27.jpg" alt="">
+                <img src="assest/icons/image28.jpg" alt="">
+                <img src="assest/icons/image29.jpg" alt="">
+            </div>
+            <button class="next">Next</button>
         </section>
-
+        
         <section class="listings">
             <div class="container">
                 <article class="listing">
@@ -165,7 +179,7 @@
 
         </div>
     </footer>
-    
+   
         
 </body>
 </html>
