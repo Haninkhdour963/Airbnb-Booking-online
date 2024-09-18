@@ -38,7 +38,7 @@ header .container .center-menu a {
     color: #222222;
     text-decoration: none;
     margin: 0 1rem;
-    background-color: #ff5a5f;
+
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 12px;
@@ -142,19 +142,17 @@ header nav .btn:hover{
     display: flex;  
     justify-content: center;
 }
-.slider img{
+
+
+  .slider-content img {
     font-size: 2.5rem;
     margin-bottom: 1rem;
     margin-left: 4px;
     padding: 10px;
-    border-radius: 10px ;
-    border-color: #922d3f;
-    background-color: #ff5a5f;
-    
-  }
- 
-
-
+    border-radius: 10px;
+    /* border-color: #922d3f; */
+    /* background-color: #ff5a5f; */
+}
 
 .listings {
     padding: 2rem 1rem;
@@ -169,11 +167,12 @@ header nav .btn:hover{
 }
 
 .listing {
-    background: #f7f7f7;
+  
     border-radius: 8px;
     overflow: hidden;
     text-align: center;
     padding: 1rem;
+    
 }
 
 .listing img {
@@ -191,8 +190,8 @@ header nav .btn:hover{
 }
 
 .listing button {
-    background-color: #ff5a5f;
-    color: white;
+   
+    color: #555;
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 5px;
